@@ -2,9 +2,9 @@
 
 ## How do I install these formulae?
 
-`brew install ramseskamanda/ramseskamanda/<formula>`
+`brew install ramseskamanda/tap/<formula>`
 
-Or `brew tap ramseskamanda/ramseskamanda` and then `brew install <formula>`.
+Or `brew tap ramseskamanda/tap` and then `brew install <formula>`.
 
 ## Documentation
 
