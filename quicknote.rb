@@ -5,11 +5,11 @@
 class Quicknote < Formula
   desc ""
   homepage "https://github.com/ramseskamanda/quicknote"
-  version "0.1.2"
+  version "0.1.3"
 
   on_macos do
-    url "https://github.com/ramseskamanda/quicknote/releases/download/v0.1.2/quicknote_0.1.2_darwin_all.tar.gz"
-    sha256 "b2626e09be5418c4d81f745471c7e07511610bc0a4d229bceabb6f0409e6f6c0"
+    url "https://github.com/ramseskamanda/quicknote/releases/download/v0.1.3/quicknote_0.1.3_darwin_all.tar.gz"
+    sha256 "8bd4d71ff07e654e783fc0a20b0764557232a6c892dc35b4fa2ec7ce80229bb3"
 
     def install
       bin.install "quicknote"
@@ -18,16 +18,16 @@ class Quicknote < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/ramseskamanda/quicknote/releases/download/v0.1.2/quicknote_0.1.2_linux_amd64.tar.gz"
-      sha256 "3ff505170963818f86c9d24a00b3e8f0d4fe7f2099eb750678af6a7b25a4a746"
+      url "https://github.com/ramseskamanda/quicknote/releases/download/v0.1.3/quicknote_0.1.3_linux_amd64.tar.gz"
+      sha256 "4132a76602ce109f965b186e255d0e05443b085ae0d7f622dfc98d98ddcadd2b"
 
       def install
         bin.install "quicknote"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/ramseskamanda/quicknote/releases/download/v0.1.2/quicknote_0.1.2_linux_arm64.tar.gz"
-      sha256 "0644634fd9366c4ad22dcdd1b634687affa39093ce595588b967f90fd4ada376"
+      url "https://github.com/ramseskamanda/quicknote/releases/download/v0.1.3/quicknote_0.1.3_linux_arm64.tar.gz"
+      sha256 "f9e7c97203eb3e54bfa65937bc004aeade5f4db895abf7b4448fe06bb2b44b6c"
 
       def install
         bin.install "quicknote"
